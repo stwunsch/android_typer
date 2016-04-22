@@ -37,6 +37,7 @@ class connector:
         text_send = text_send.replace("!", "\!")
         text_send = text_send.replace("?", "\?")
         text_send = text_send.replace(":", "\:")
+        text_send = text_send.replace(";", "\;")
 
         # Send text to device if the text is not empty, otherwise send return
         if text!="":
