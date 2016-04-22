@@ -1,5 +1,5 @@
 # android_typer
-Small program to type on your Android device over your computer keyboard
+Small program to type on your Android device using your computer keyboard
 
 Works most likely only under Linux!
 
@@ -20,7 +20,7 @@ $ adb devices -l
 
 You should see something like this (dependend on your device):
 
-$ List of devices attached
+$ List of devices attached  
 $ 04d07b88064f4d7f       device usb:2-3 product:occam model:Nexus_4 device:mako
 
 Apparently, everything worked! Otherwise you need probably an udev rule on your
@@ -35,7 +35,7 @@ $ python3 android_typer.py
 
 Probably you want to to set a symbolic link to integrate it into your system:
 
-$ ln -s /<path to android_typer>/android_typer.py /usr/bin/android_typer
+$ ln -s /path_to_android_typer/android_typer.py /usr/bin/android_typer
 
 Dependencies
 ------------
