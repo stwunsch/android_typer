@@ -18,7 +18,7 @@ Next, try to test the connection using following command:
 
 $ adb devices -l
 
-You should see something like this (dependend on your device):
+You should see something like this (dependent on your device):
 
 $ List of devices attached  
 $ 04d07b88064f4d7f       device usb:2-3 product:occam model:Nexus_4 device:mako
